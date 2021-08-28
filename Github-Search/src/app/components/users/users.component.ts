@@ -7,14 +7,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./users.component.css']
 })
 export class UsersComponent implements OnInit {
-   usersDetails:any  
+   usersDetails:any  ;
+   repository:any;
 
   constructor( private userservice:UsersService) { 
     this.userservice.getUsersDetails().subscribe((usersDetails:any[])=>{
       console.log(usersDetails);
       this.usersDetails
     })
-  
+    this.userservice.getProfileRepositories().subscribe((repos:any[] | undefined)=>{
+      this.repository=this.repository;
+    })
     
   }
 
