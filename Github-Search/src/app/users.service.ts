@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import 'rxjs/add/operator/map';
+import { mainModule } from 'process';
 
 @Injectable({
   providedIn: 'root'
@@ -28,5 +29,8 @@ export class UsersService {
     .map((res: any) => {
       return res
   })
+  }
+  updateUsersDetails(username:string){
+    this.username=username;
   }
 }
