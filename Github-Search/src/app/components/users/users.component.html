@@ -1,36 +1,37 @@
 <div *ngIf="usersDetails">
     <div class="panel panel-default">
-        <div class="jumbotron text-center text-dark mt-4">
+        <div class="jumbotron text-center text-light mt-4">
         <div class="panel heading bio">
             Your full name is : {{usersDetails.name}} , <br>
             Your Git Hub name is <small>{{usersDetails.login}}</small> 
             <br> was created on : <span *ngIf="usersDetails.created_at">{{usersDetails.created_at}}</span>
            <br>
             Location: {{usersDetails.location}}
+        
         </div>
     </div>
     <hr>
         <div class="jumbotron">
         <div class="panel-body">
             <div class="row">
-                <div class="col-sm-5 jumbotron">
-                    <img src="{{usersDetails.avatar_url}}" width="" alt="Users image" class="img-circle img-responsive">
+                <div class="col-sm-5 jumbotron col-lg-6 col-md-12 col-sm-12">
+                    <img src="{{usersDetails.avatar_url}}" width="100%" alt="Users image" class="img-circle img-responsive">
                 </div>
-                <div class="col-sm-5">
+                <div class="col-sm-5 col-lg-6 col-md-12 col-sm-12 mt-3">
                     <ul class="list-group bg-secondary text-light">
                        <p class="text-light text-center mt-2"> A brief Bio about {{usersDetails.name}}</p>
                         <li class="list-group-item bg-secondary text-light" *ngIf="usersDetails.bio">{{usersDetails.bio}}</li><br>
                         <hr>
-                        <li class="list-group-item" *ngIf="usersDetails.hireable">{{usersDetails.hireable}}</li><br>
-                        <li class="list-group-item" *ngIf="usersDetails.blog"><a href="{{usersDetails.blog}}" target="_blank">{{usersDetails.blog}}</a></li><br>
-                        <li class="list-group-item" *ngIf="usersDetails.email"><a href="emailto:{{usersDetails.email}}" target="_blank">{{usersDetails.email}}</a></li>
+                        <li class="list-group-item mt-3" *ngIf="usersDetails.hireable">{{usersDetails.hireable}}</li><br>
+                        <li class="list-group-item mt-3" *ngIf="usersDetails.blog"><a href="{{usersDetails.blog}}" target="_blank">{{usersDetails.blog}}</a></li><br>
+                        <li class="list-group-item mt-3" *ngIf="usersDetails.email"><a href="emailto:{{usersDetails.email}}" target="_blank">{{usersDetails.email}}</a></li>
                     </ul>
                     <div class="mt-5">
                         <p>
-                            <span class="btn btn-outline-danger list-group-item">{{usersDetails.followers}} followers</span>
-                            <span class=" btn btn-outline-dark label label-primary list-group-item">{{usersDetails.following}} followings</span>
-                            <span class=" btn btn-warning label label-success list-group-item">{{usersDetails.public_gists}} Pulic_gists</span>
-                            <span class=" btn btn-success label label-danger list-group-item">{{usersDetails.public_repos}} public_Repos</span>
+                            <span class="btn btn-outline-danger list-group-item mt-3">{{usersDetails.followers}} followers</span>
+                            <span class=" btn btn-outline-dark label label-primary list-group-item mt-3">{{usersDetails.following}} followings</span>
+                            <span class=" btn btn-warning label label-success list-group-item mt-3">{{usersDetails.public_gists}} Pulic_gists</span>
+                            <span class=" btn btn-success label label-danger list-group-item mt-3">{{usersDetails.public_repos}} public_Repos</span>
                         </p>
                         <p><a href="{{usersDetails.html_url}}"  target="_blank" class="btn btn-success btn-small">View {{usersDetails.name}} profile on github?</a></p>
                     </div>
@@ -44,10 +45,10 @@
         <div class="panel panel-default">
             <div class="panel-heading">
                 <div class="panel-title">
-                    <h3 class="text-center">{{usersDetails.name}} Repositories</h3>
+                    <h3 class="text-center text-light">{{usersDetails.name}} Repositories</h3>
                 </div>
                 <div class="panel-body" *ngFor="let repository of repository">
-                    <p class="list-group-item repos">
+                    <p class="list-group-item repos ">
                         {{repository.name}} <a href="{{repository.html_url}}" target="_blank">View thisProject</a>
                     </p>
                 </div>

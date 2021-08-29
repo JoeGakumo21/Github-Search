@@ -1,4 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 body{
-    background-image: url("Github-Search/src/assets/images/screenshot.png");
+    background-color: #011212;
+    /* background-image: url("./assets/images/color.jpg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    padding-bottom: 20px; */
 }
