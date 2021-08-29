@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 # Setup installation
 the website is hosted at Git so incase you need a copy ensure you are in the right folder then type the following
 
-* git clone
+* git clone https://github.com/JoeGakumo21/Github-Search
 # Setup Requirements
 * Browser
 * Github
@@ -20,7 +20,7 @@ the website is hosted at Git so incase you need a copy ensure you are in the rig
 * TYPESCRIPT
 * HTTPCLIENT
 # Live link
-access the website via this link <a href="">Get Your details on Github API</a>
+access the website via this link <a href="https://joegakumo21.github.io/Github-Search/">Github API </a>
 
 # Contacts details
 * incase of any updates concerning this website reach me via
