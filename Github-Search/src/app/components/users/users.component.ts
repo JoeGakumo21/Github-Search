@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./users.component.css']
 })
 export class UsersComponent implements OnInit {
-   usersDetails!:any  ;
+   usersDetails:any  ;
    repository:any;
 
   constructor( private userservice:UsersService) { 
