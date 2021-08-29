@@ -51,3 +51,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 * <a href="https://choosealicense.com/licenses/mit/">MIT LICENCE
 
+# Screenshorts of the website
+<img src="/home/moringa/Desktop/GithubSearch/Github-Search/src/assets/images/Screenshot 1.png">
+<img src="/home/moringa/Desktop/GithubSearch/Github-Search/src/assets/images/Screenshot 2.png">
+<img src="/home/moringa/Desktop/GithubSearch/Github-Search/src/assets/images/Screenshot 3.png">
