@@ -1,7 +1,31 @@
-# GithubSearch
-
+# GithubSearch API Project
+# Project Description
+This is a website where users may enter a GitHub username into the search input, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories of that person.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.0.
 
+# Setup installation
+the website is hosted at Git so incase you need a copy ensure you are in the right folder then type the following
+
+* git clone
+# Setup Requirements
+* Browser
+* Github
+* firefox browser
+# Technology Used
+* HTML
+* CSS
+* BOOTSTRAP
+* JAVASCRIPT
+* JQUERY
+* TYPESCRIPT
+* HTTPCLIENT
+# Live link
+access the website via this link <a href="">Get Your details on Github API</a>
+
+# Contacts details
+* incase of any updates concerning this website reach me via
+<a href="">0791279635</a> or 
+* via email address: joegakumo1@gmail.com 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -25,3 +49,5 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+* <a href="https://choosealicense.com/licenses/mit/">MIT LICENCE
+
