@@ -52,6 +52,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * <a href="https://choosealicense.com/licenses/mit/">MIT LICENCE
 
 # Screenshorts of the website
-<img src="/home/moringa/Desktop/GithubSearch/Github-Search/src/assets/images/Screenshot 1.png">
+<!-- <img src="/home/moringa/Desktop/GithubSearch/Github-Search/src/assets/images/Screenshot 1.png"> -->
+  ![](assests/images/Screenshot1.png)
 <img src="/home/moringa/Desktop/GithubSearch/Github-Search/src/assets/images/Screenshot 2.png">
 <img src="/home/moringa/Desktop/GithubSearch/Github-Search/src/assets/images/Screenshot 3.png">
