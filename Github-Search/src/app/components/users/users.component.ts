@@ -15,8 +15,8 @@ export class UsersComponent implements OnInit {
       console.log(usersDetails);
       this.usersDetails=usersDetails;
     })
-    this.userservice.getProfileRepositories().subscribe((repos:any[] | undefined)=>{
-      this.repository=this.repository;
+    this.userservice.getProfileRepositories().subscribe((repository:any[] | undefined)=>{
+      this.repository=repository;
     })
     
   }
