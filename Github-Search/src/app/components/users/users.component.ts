@@ -21,6 +21,16 @@ export class UsersComponent implements OnInit {
     })
     
   }
+  findUser(){
+    this.userservice.updateUsersDetails(this.searchUser)
+    this.userservice.getUsersDetails().subscribe((usersDetails:any[])=>{
+      console.log(usersDetails);
+      this.usersDetails=usersDetails;
+    })
+    this.userservice.getProfileRepositories().subscribe((repository:any[] | undefined)=>{
+      this.repository=repository;
+    })
+  }
 
   ngOnInit(): void {
   }
