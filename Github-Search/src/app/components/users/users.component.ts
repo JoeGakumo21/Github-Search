@@ -9,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class UsersComponent implements OnInit {
    usersDetails:any  ;
    repository:any;
+   searchUser:any;
 
   constructor( private userservice:UsersService) { 
     this.userservice.getUsersDetails().subscribe((usersDetails:any[])=>{
