@@ -38,7 +38,24 @@
             </div>
         </div>
     </div>
-       
+    <div class="col-sm-12">
+        <hr>
+        <div class="jumbotron">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="panel-title">
+                    <h3 class="text-center">{{usersDetails.name}} Repositories</h3>
+                </div>
+                <div class="panel-body" *ngFor="let repository of repository">
+                    <p class="list-group-item repos">
+                        {{repository.name}} <a href="{{repository.html_url}}" target="_blank">View thisProject</a>
+                    </p>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+    </div>
     </div>
 </div> 
 
