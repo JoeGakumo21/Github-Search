@@ -53,6 +53,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 # Screenshorts of the website
 <!-- <img src="/home/moringa/Desktop/GithubSearch/Github-Search/src/assets/images/Screenshot 1.png"> -->
-  ![](/home/moringa/Desktop/GithubSearch/Github-Search/src/assests/images/Screenshot1.png)
+  ![](/home/moringa/Desktop/GithubSearch/Github-Search/src/assets/images/Screenshot1.png)
 <img src="/home/moringa/Desktop/GithubSearch/Github-Search/src/assets/images/Screenshot 2.png">
 <img src="/home/moringa/Desktop/GithubSearch/Github-Search/src/assets/images/Screenshot 3.png">
